@@ -1,6 +1,6 @@
 # RBee 🐝
 
-### RetinoBlastoma boosted ensemble estimator
+## RetinoBlastoma boosted ensemble estimator
 
 *DNA Methylation Array-Based Molecular Classification of Retinoblastoma*
 
@@ -18,15 +18,20 @@ RBee supports classification of preprocessed methylation profiles from both tumo
 
 ## Installation
 
-RBee is currently under development and is not yet available on CRAN.
+RBee is available on [GitHub](https://github.com/steffiVolz/RBee) and is currently being prepared for submission to CRAN.
 
-Once publicly released on GitHub, the package can be installed using:
+To install RBee directly from GitHub:
 
 ```r
-remotes::install_github("USERNAME/RBee")
+install.packages("remotes")
+remotes::install_github("steffiVolz/RBee")
 ```
 
-Replace `USERNAME` with the official GitHub account or organization.
+Alternatively, RBee can be installed using Git:
+
+```r
+remotes::install_git("https://github.com/steffiVolz/RBee.git")
+```
 
 ## Input Data
 
@@ -112,15 +117,25 @@ Model performance was evaluated using stratified five-fold cross-validation and 
 
 RBee is provided for research use. Classification results should not be used as the sole basis for clinical diagnosis or treatment decisions.
 
+
 ## Citation
 
-Publication reference will be added following publication of the associated manuscript.
+If you use RBee in your research, please cite the associated preprint:
 
-## Maintainer
+Volz, S., Montigel, S. H., Ryl, T., et al. (2026).
+*Aqueous Humor Liquid Biopsy Enables Multi-Omics Tumor Profiling and Methylation-Based Machine-Learning Stratification of Retinoblastoma.*
 
-Stefanie Volz  
-Hopp Children's Cancer Center Heidelberg (KiTZ)  
-Email: stefanie.volz@kitz-heidelberg.de
+Preprint.
+
+DOI: https://doi.org/10.64898/2026.07.09.26357661
+
+For citation information within R, use:
+
+```r
+citation("RBee")
+```
+
+The citation will be updated following publication of the peer-reviewed manuscript.
 
 ## License
 
