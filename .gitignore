@@ -1,0 +1,30 @@
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# R temporary files
+.Rcheck/
+*.Rcheck/
+*.tar.gz
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Private data
+development_private/
+*.idat
+*.IDAT
+
+# Temporary files
+*.tmp
+*.bak
+
+.Rproj.user
+.Rdata
+.httr-oauth
+.quarto
+
+

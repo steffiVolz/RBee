@@ -1,0 +1,31 @@
+Package: RBee
+Title: Retinoblastoma Classification Using DNA Methylation Array Data
+Version: 0.0.0.9000
+Authors@R:
+    person("Stefanie", "Volz",
+           email = "stefanie.volz@kitz-heidelberg.de",
+           role = c("aut", "cre"))
+Description: RBee (RetinoBlastoma boosted ensemble estimator)
+    provides a pretrained XGBoost classifier for molecular
+    classification of retinoblastoma using DNA methylation array
+    beta values. The classifier distinguishes three retinoblastoma
+    molecular subgroups (Subtype 1, Subtype 2 Cluster B, and
+    Subtype 2 Cluster C), normal retina, and ocular disease
+    controls. It accepts preprocessed methylation beta matrices
+    derived from tumor tissue or aqueous humor liquid biopsies
+    and returns predicted classes and class probabilities.
+    The classifier was trained using Noob-normalized methylation
+    array data. DNA methylation preprocessing is not performed
+    by the package.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    xgboost
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true

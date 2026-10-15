@@ -1,0 +1,19 @@
+bibentry(
+  bibtype = "Misc",
+  title = paste(
+    "Aqueous Humor Liquid Biopsy Enables Multi-Omics",
+    "Tumor Profiling and Methylation-Based",
+    "Machine-Learning Stratification of Retinoblastoma"
+  ),
+  author = c(
+    person("Stefanie", "Volz"),
+    person("Sophia H.", "Montigel"),
+    person("Tatsiana", "Ryl"),
+    person("Kendra K.", "Maass"),
+    person("Petra", "Ketteler")
+  ),
+  year = "2026",
+  doi = "10.64898/2026.07.09.26357661",
+  url = "https://doi.org/10.64898/2026.07.09.26357661",
+  note = "Preprint. See the publication for the full author list."
+)
